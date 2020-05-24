@@ -1,0 +1,46 @@
+body
+{
+    background-color: black;
+}
+header
+{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../images/adult-books-business-coffee-374016.jpg);
+}
+ .sec1
+{
+    position: absolute;
+    top: 40vh; 
+    text-transform: capitalize; 
+    
+} 
+.sec3::after
+{
+    display: block;content: "";
+    width:50%; height: 0.1px; 
+  background-color: #3f371e;
+  margin:20px auto;
+}
+
+.sec2
+{
+    /* background-color: #ffc107; */
+    background-image: linear-gradient(#ffc107,#000000);
+}
+.div2
+{
+    background-color: black;
+}
+.box {
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 20px;}
+}
